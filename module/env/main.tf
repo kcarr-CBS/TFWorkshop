@@ -28,7 +28,7 @@ module "WebPortal" {
 }
 
 # App 2
-module "WebPortal" {
+module "Storm" {
   source              = "../app"
   app_name            = "Storm"
   username            = var.username
