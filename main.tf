@@ -14,7 +14,7 @@ module "DevEnvironment" {
 }
 module "TestEnvironment" {
   source                  = "./module/env"
-  env_name                = "dev"
+  env_name                = "test"
   location                = "eastus"
   os_type                 = "Linux"
   sku_name                = "B1"
